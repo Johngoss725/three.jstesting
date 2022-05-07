@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start": "./main.js",
+    "start": "serve -s build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -12,6 +12,7 @@
     "vite": "^2.9.7"
   },
   "dependencies": {
+    "serve": "^13.0.2",
     "three": "^0.140.0"
   },
   "engines": {
