@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="holding">
+    
+    <div class="panel">
+      
+      <label for="radius">Radius</label>
+      <h2 id="TorusRadiusText">10</h2>
+      <input type="range" value="10" name="radius" min="10" max="20" id="TorusRadius">
+    </div>
+    
+    <div class="panel">
+      
+      <label for="tube">Tube</label>
+      <h2 id="TorusTubeText">3</h2>
+      <input type="range" value="3" name="tube" min="3" max="10" id="TorusTube">
+    </div>
+    
+    <div class="panel">
+      
+      <label for="radialSegments">Radial Segments</label>
+      <h2 id="TorusSegmentsText">8</h2>
+      <input type="range" value="8" name="radialSegments" min="8" max="20" id="TorusSegments">
+    </div>
+
+    <div class="panel">
+      
+      <label for="tubularSegments">Tubular Segments</label>
+      <h2 id="TubeSegmentsText">6</h2>
+      <input type="range" value="6" name="tubularSegments" min="6" max="20" id="TubeSegments">
+    </div>
+
+  </div>
+
+    <button id="btn"> update </button>
+    <canvas id="bg">
+    
+    </canvas>
+    
+  
+
+    <div id="app"></div>
+
+    <script type="module" src="/main.js"></script>
+    <script type="text/javascript" src="/main.js"></script>
+  </body>
+</html>
